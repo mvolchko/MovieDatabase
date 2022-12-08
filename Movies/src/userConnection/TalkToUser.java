@@ -37,7 +37,7 @@ public class TalkToUser {
 	
 	public TalkToUser() {
 		rating.realData();
-		grossing.testData();
+		grossing.realData();
 		cast.realData();
 		rating.scanInInfo();
 		grossing.scanInInfo();

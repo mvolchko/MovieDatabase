@@ -1,6 +1,7 @@
 package system;
 
 
+import java.math.BigInteger;
 import java.util.ArrayList;
 
 import scanning.Cast;
@@ -12,7 +13,7 @@ public class TotalBoxOfficeEarnings implements Query{
 	int year;
 	
 	//goal information
-	int totalEarnings=0;
+	BigInteger totalEarnings=new BigInteger("0");
 	
 	public String getAnswer(String neededInformation, Rating ratingList, Grossing grossingList, Cast castList) {
 		year=Integer.parseInt(neededInformation);
@@ -20,13 +21,13 @@ public class TotalBoxOfficeEarnings implements Query{
 		
 		for (ArrayList<String> singularMovieData : grossingList.getInformation()) {
 			if (year==Integer.parseInt(singularMovieData.get(2))) {			
-				//this is maxing out with the real values because they are too big
-				totalEarnings = totalEarnings + Integer.parseInt(singularMovieData.get(3));			
+				BigInteger added= new BigInteger(singularMovieData.get(3));
+				totalEarnings = totalEarnings.add(added);			
 			}
 		}
 		
 		
-		return Integer.toString(totalEarnings);
+		return totalEarnings.toString();
 	}
 
 }
