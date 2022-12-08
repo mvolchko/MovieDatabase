@@ -1,0 +1,11 @@
+Rank	Title	Year	Director	Cast 1	Cast 2	Cast 3	Cast 4	Cast 5
+1	101 Dalmatians	1961	Clyde Geronimi	Rod Taylor	J. Pat O'Malley	Betty Lou Gerson	Martha Wentworth	Ben Wright
+2	12 Angry Men	1957	Sidney Lumet	Martin Balsam	John Fiedler	Lee J. Cobb	E.G. Marshall	Jack Klugman
+3	2001: A Space Odyssey	1968	Stanley Kubrick	Keir Dullea	Gary Lockwood	William Sylvester	Daniel Richter	Leonard Rossiter
+4	2012	2009	Roland Emmerich	John Cusack	Amanda Peet	Chiwetel Ejiofor	Thandie Newton	Oliver Platt
+5	3 Idiots	2009	Rajkumar Hirani	Aamir Khan	Kareena Kapoor	Madhavan	Sharman Joshi	Boman Irani
+6	3 Men and a Baby	1987	Leonard Nimoy	Tom Selleck	Steve Guttenberg	Ted Danson	Nancy Travis	Margaret Colin
+7	300	2006	Zack Snyder	Martin Balsam	Martin Balsam	Dominic West	David Wenham	Vincent Regan
+8	300	2006	Zack Snyder	Gerard Butler	Lena Headey	Dominic West	David Wenham	Vincent Regan
+8	300	2006	Zack Snyder	Gerard Butler	Lena Headey	Dominic West	David Wenham	Vincent Regan
+1	101 Dalmatians	1961	Clyde Geronimi	Martin Balsam	J. Pat O'Malley	Betty Lou Gerson	Martha Wentworth	Ben Wright
